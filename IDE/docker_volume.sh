@@ -1,7 +1,5 @@
 # 볼륨 새성 (volume name : cloud-cicd-src)
-docker volume create  \
---opt device="C:/CICD/cicd-start/IDE/src" \
---opt o=bind --opt type=none cloud-cicd-src
+docker volume create --opt device="C:/CICD/cicd-start/IDE/src" --opt o=bind --opt type=none cloud-cicd-src
 
 docker volume create --opt device="C:/CICD/cicd-start/IDE/vscode" --opt o=bind --opt type=none vscode
 
